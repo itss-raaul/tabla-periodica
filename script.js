@@ -533,3 +533,267 @@ else {
 }
 
 })(); }
+
+// Alumnio
+document.getElementById("Al").onclick = function() {myFunction13()};
+function myFunction13() {
+  (async () => {
+
+const ipAPI = '//api.ipify.org?format=json'
+
+const inputValue = fetch(ipAPI)
+  .then(response => response.json())
+  .then(data => data.ip)
+
+const { value: elemento } = await Swal.fire({
+  title: 'Al',
+  text: '¿Cuál es el nombre de este elemento?',
+  input: 'text',
+  inputPlaceholder: 'Nombre',
+  showCancelButton: true,
+  inputValidator: (value) => {
+    if (!value) {
+      return 'You need to write something!'
+    }
+  }
+})
+
+if (elemento === 'Alumnio') {
+  Swal.fire({
+    title: 'Correcto!',
+    text: 'Has acertado la pregunta.',
+    icon: 'success',
+    confirmButtonText: 'Siguiente'
+  })
+}
+    
+else {
+  Swal.fire({
+    title: 'Incorrecto...',
+    text: "La respuesta correcta era Alumnio",
+    icon: 'error',
+    confirmButtonText: 'Volver a intentar'
+  })
+}
+
+})(); }
+
+// Silicio
+document.getElementById("Si").onclick = function() {myFunction14()};
+function myFunction14() {
+  (async () => {
+
+const ipAPI = '//api.ipify.org?format=json'
+
+const inputValue = fetch(ipAPI)
+  .then(response => response.json())
+  .then(data => data.ip)
+
+const { value: elemento } = await Swal.fire({
+  title: 'Si',
+  text: '¿Cuál es el nombre de este elemento?',
+  input: 'text',
+  inputPlaceholder: 'Nombre',
+  showCancelButton: true,
+  inputValidator: (value) => {
+    if (!value) {
+      return 'You need to write something!'
+    }
+  }
+})
+
+if (elemento === 'Silicio') {
+  Swal.fire({
+    title: 'Correcto!',
+    text: 'Has acertado la pregunta.',
+    icon: 'success',
+    confirmButtonText: 'Siguiente'
+  })
+}
+    
+else {
+  Swal.fire({
+    title: 'Incorrecto...',
+    text: "La respuesta correcta era Silicio",
+    icon: 'error',
+    confirmButtonText: 'Volver a intentar'
+  })
+}
+
+})(); }
+
+// Fósforo
+document.getElementById("P").onclick = function() {myFunction15()};
+function myFunction15() {
+  (async () => {
+
+const ipAPI = '//api.ipify.org?format=json'
+
+const inputValue = fetch(ipAPI)
+  .then(response => response.json())
+  .then(data => data.ip)
+
+const { value: elemento } = await Swal.fire({
+  title: 'P',
+  text: '¿Cuál es el nombre de este elemento?',
+  input: 'text',
+  inputPlaceholder: 'Nombre',
+  showCancelButton: true,
+  inputValidator: (value) => {
+    if (!value) {
+      return 'You need to write something!'
+    }
+  }
+})
+
+if (elemento === 'Fósforo') {
+  Swal.fire({
+    title: 'Correcto!',
+    text: 'Has acertado la pregunta.',
+    icon: 'success',
+    confirmButtonText: 'Siguiente'
+  })
+}
+    
+else {
+  Swal.fire({
+    title: 'Incorrecto...',
+    text: "La respuesta correcta era Fósforo",
+    icon: 'error',
+    confirmButtonText: 'Volver a intentar'
+  })
+}
+
+})(); }
+
+// Azufre
+document.getElementById("S").onclick = function() {myFunction16()};
+function myFunction16() {
+  (async () => {
+
+const ipAPI = '//api.ipify.org?format=json'
+
+const inputValue = fetch(ipAPI)
+  .then(response => response.json())
+  .then(data => data.ip)
+
+const { value: elemento } = await Swal.fire({
+  title: 'S',
+  text: '¿Cuál es el nombre de este elemento?',
+  input: 'text',
+  inputPlaceholder: 'Nombre',
+  showCancelButton: true,
+  inputValidator: (value) => {
+    if (!value) {
+      return 'You need to write something!'
+    }
+  }
+})
+
+if (elemento === 'Azufre') {
+  Swal.fire({
+    title: 'Correcto!',
+    text: 'Has acertado la pregunta.',
+    icon: 'success',
+    confirmButtonText: 'Siguiente'
+  })
+}
+    
+else {
+  Swal.fire({
+    title: 'Incorrecto...',
+    text: "La respuesta correcta era Azufre",
+    icon: 'error',
+    confirmButtonText: 'Volver a intentar'
+  })
+}
+
+})(); }
+
+// Cloro
+document.getElementById("Cl").onclick = function() {myFunction17()};
+function myFunction17() {
+  (async () => {
+
+const ipAPI = '//api.ipify.org?format=json'
+
+const inputValue = fetch(ipAPI)
+  .then(response => response.json())
+  .then(data => data.ip)
+
+const { value: elemento } = await Swal.fire({
+  title: 'Cl',
+  text: '¿Cuál es el nombre de este elemento?',
+  input: 'text',
+  inputPlaceholder: 'Nombre',
+  showCancelButton: true,
+  inputValidator: (value) => {
+    if (!value) {
+      return 'You need to write something!'
+    }
+  }
+})
+
+if (elemento === 'Cloro') {
+  Swal.fire({
+    title: 'Correcto!',
+    text: 'Has acertado la pregunta.',
+    icon: 'success',
+    confirmButtonText: 'Siguiente'
+  })
+}
+    
+else {
+  Swal.fire({
+    title: 'Incorrecto...',
+    text: "La respuesta correcta era Cloro",
+    icon: 'error',
+    confirmButtonText: 'Volver a intentar'
+  })
+}
+
+})(); }
+
+// Argón
+document.getElementById("Ar").onclick = function() {myFunction18()};
+function myFunction18() {
+  (async () => {
+
+const ipAPI = '//api.ipify.org?format=json'
+
+const inputValue = fetch(ipAPI)
+  .then(response => response.json())
+  .then(data => data.ip)
+
+const { value: elemento } = await Swal.fire({
+  title: 'Ar',
+  text: '¿Cuál es el nombre de este elemento?',
+  input: 'text',
+  inputPlaceholder: 'Nombre',
+  showCancelButton: true,
+  inputValidator: (value) => {
+    if (!value) {
+      return 'You need to write something!'
+    }
+  }
+})
+
+if (elemento === 'Argón') {
+  Swal.fire({
+    title: 'Correcto!',
+    text: 'Has acertado la pregunta.',
+    icon: 'success',
+    confirmButtonText: 'Siguiente'
+  })
+}
+    
+else {
+  Swal.fire({
+    title: 'Incorrecto...',
+    text: "La respuesta correcta era Argón",
+    icon: 'error',
+    confirmButtonText: 'Volver a intentar'
+  })
+}
+
+})(); }
