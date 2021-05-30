@@ -1,14 +1,14 @@
 Swal.fire({
   title: '¡Bienvenido a <b>Adivina el Elemento</b>!',
   text: 'Debes seleccionar un elemento y escribir el texto. ¿Preparado?',
-  footer: 'Asegúrate de poner mayúsculas y tildes!'
+  footer: 'Asegúrate de poner mayúsculas y tildes!',
   confirmButtonText: 'Entendido',
   denyButtonText: 'Cancelar',
 })
 
 // Hidrógeno
-document.getElementById("H").onclick = function() {myFunction001()};
-function myFunction001() {
+document.getElementById("H").onclick = function() {myFunction1()};
+function myFunction1() {
   (async () => {
 
 const ipAPI = '//api.ipify.org?format=json'
@@ -51,8 +51,8 @@ else {
 })(); }
 
 // Helio
-document.getElementById("He").onclick = function() {myFunction002()};
-function myFunction002() {
+document.getElementById("He").onclick = function() {myFunction2()};
+function myFunction2() {
   (async () => {
 
 const ipAPI = '//api.ipify.org?format=json'
@@ -95,8 +95,8 @@ else {
 })(); }
 
 // Litio
-document.getElementById("Li").onclick = function() {myFunction003()};
-function myFunction003() {
+document.getElementById("Li").onclick = function() {myFunction3()};
+function myFunction3() {
   (async () => {
 
 const ipAPI = '//api.ipify.org?format=json'
@@ -139,8 +139,8 @@ else {
 })(); }
 
 // Berilio
-document.getElementById("Be").onclick = function() {myFunction004()};
-function myFunction004() {
+document.getElementById("Be").onclick = function() {myFunction4()};
+function myFunction4() {
   (async () => {
 
 const ipAPI = '//api.ipify.org?format=json'
@@ -183,8 +183,8 @@ else {
 })(); }
 
 // Boro
-document.getElementById("B").onclick = function() {myFunction005()};
-function myFunction005() {
+document.getElementById("B").onclick = function() {myFunction5()};
+function myFunction5() {
   (async () => {
 
 const ipAPI = '//api.ipify.org?format=json'
@@ -227,8 +227,8 @@ else {
 })(); }
 
 // Carbono
-document.getElementById("C").onclick = function() {myFunction006()};
-function myFunction006() {
+document.getElementById("C").onclick = function() {myFunction6()};
+function myFunction6() {
   (async () => {
 
 const ipAPI = '//api.ipify.org?format=json'
@@ -271,8 +271,8 @@ else {
 })(); }
 
 // Nitrógeno
-document.getElementById("N").onclick = function() {myFunction007()};
-function myFunction007() {
+document.getElementById("N").onclick = function() {myFunction7()};
+function myFunction7() {
   (async () => {
 
 const ipAPI = '//api.ipify.org?format=json'
@@ -315,8 +315,8 @@ else {
 })(); }
 
 // Oxígeno
-document.getElementById("O").onclick = function() {myFunction008()};
-function myFunction008() {
+document.getElementById("O").onclick = function() {myFunction8()};
+function myFunction8() {
   (async () => {
 
 const ipAPI = '//api.ipify.org?format=json'
@@ -359,8 +359,8 @@ else {
 })(); }
 
 // Flúor
-document.getElementById("F").onclick = function() {myFunction009()};
-function myFunction009() {
+document.getElementById("F").onclick = function() {myFunction9()};
+function myFunction9() {
   (async () => {
 
 const ipAPI = '//api.ipify.org?format=json'
@@ -403,8 +403,8 @@ else {
 })(); }
 
 // Neón
-document.getElementById("Ne").onclick = function() {myFunction010()};
-function myFunction010() {
+document.getElementById("Ne").onclick = function() {myFunction10()};
+function myFunction10() {
   (async () => {
 
 const ipAPI = '//api.ipify.org?format=json'
@@ -447,8 +447,8 @@ else {
 })(); }
 
 // Sodio
-document.getElementById("Na").onclick = function() {myFunction011()};
-function myFunction011() {
+document.getElementById("Na").onclick = function() {myFunction11()};
+function myFunction11() {
   (async () => {
 
 const ipAPI = '//api.ipify.org?format=json'
@@ -483,314 +483,6 @@ else {
   Swal.fire({
     title: 'Incorrecto...',
     text: "La respuesta correcta era Sodio",
-    icon: 'error',
-    confirmButtonText: 'Volver a intentar'
-  })
-}
-
-})(); }
-
-// Magnesio
-document.getElementById("Mg").onclick = function() {myFunction012()};
-function myFunction012() {
-  (async () => {
-
-const ipAPI = '//api.ipify.org?format=json'
-
-const inputValue = fetch(ipAPI)
-  .then(response => response.json())
-  .then(data => data.ip)
-
-const { value: elemento } = await Swal.fire({
-  title: 'Mg',
-  text: '¿Cuál es el nombre de este elemento?',
-  input: 'text',
-  inputPlaceholder: 'Nombre',
-  showCancelButton: true,
-  inputValidator: (value) => {
-    if (!value) {
-      return 'You need to write something!'
-    }
-  }
-})
-
-if (elemento === 'Magnesio') {
-  Swal.fire({
-    title: 'Correcto!',
-    text: 'Has acertado la pregunta.',
-    icon: 'success',
-    confirmButtonText: 'Siguiente'
-  })
-}
-    
-else {
-  Swal.fire({
-    title: 'Incorrecto...',
-    text: "La respuesta correcta era Magnesio",
-    icon: 'error',
-    confirmButtonText: 'Volver a intentar'
-  })
-}
-
-})(); }
-
-// Alumnio
-document.getElementById("Al").onclick = function() {myFunction013()};
-function myFunction013() {
-  (async () => {
-
-const ipAPI = '//api.ipify.org?format=json'
-
-const inputValue = fetch(ipAPI)
-  .then(response => response.json())
-  .then(data => data.ip)
-
-const { value: elemento } = await Swal.fire({
-  title: 'Al',
-  text: '¿Cuál es el nombre de este elemento?',
-  input: 'text',
-  inputPlaceholder: 'Nombre',
-  showCancelButton: true,
-  inputValidator: (value) => {
-    if (!value) {
-      return 'You need to write something!'
-    }
-  }
-})
-
-if (elemento === 'Alumnio') {
-  Swal.fire({
-    title: 'Correcto!',
-    text: 'Has acertado la pregunta.',
-    icon: 'success',
-    confirmButtonText: 'Siguiente'
-  })
-}
-    
-else {
-  Swal.fire({
-    title: 'Incorrecto...',
-    text: "La respuesta correcta era Alumnio",
-    icon: 'error',
-    confirmButtonText: 'Volver a intentar'
-  })
-}
-
-})(); }
-
-// Silicio
-document.getElementById("Si").onclick = function() {myFunction014()};
-function myFunction014() {
-  (async () => {
-
-const ipAPI = '//api.ipify.org?format=json'
-
-const inputValue = fetch(ipAPI)
-  .then(response => response.json())
-  .then(data => data.ip)
-
-const { value: elemento } = await Swal.fire({
-  title: 'Si',
-  text: '¿Cuál es el nombre de este elemento?',
-  input: 'text',
-  inputPlaceholder: 'Nombre',
-  showCancelButton: true,
-  inputValidator: (value) => {
-    if (!value) {
-      return 'You need to write something!'
-    }
-  }
-})
-
-if (elemento === 'Silicio') {
-  Swal.fire({
-    title: 'Correcto!',
-    text: 'Has acertado la pregunta.',
-    icon: 'success',
-    confirmButtonText: 'Siguiente'
-  })
-}
-    
-else {
-  Swal.fire({
-    title: 'Incorrecto...',
-    text: "La respuesta correcta era Silicio",
-    icon: 'error',
-    confirmButtonText: 'Volver a intentar'
-  })
-}
-
-})(); }
-
-// Fósforo
-document.getElementById("P").onclick = function() {myFunction015()};
-function myFunction015() {
-  (async () => {
-
-const ipAPI = '//api.ipify.org?format=json'
-
-const inputValue = fetch(ipAPI)
-  .then(response => response.json())
-  .then(data => data.ip)
-
-const { value: elemento } = await Swal.fire({
-  title: 'P',
-  text: '¿Cuál es el nombre de este elemento?',
-  input: 'text',
-  inputPlaceholder: 'Nombre',
-  showCancelButton: true,
-  inputValidator: (value) => {
-    if (!value) {
-      return 'You need to write something!'
-    }
-  }
-})
-
-if (elemento === 'Fósforo') {
-  Swal.fire({
-    title: 'Correcto!',
-    text: 'Has acertado la pregunta.',
-    icon: 'success',
-    confirmButtonText: 'Siguiente'
-  })
-}
-    
-else {
-  Swal.fire({
-    title: 'Incorrecto...',
-    text: "La respuesta correcta era Fósforo",
-    icon: 'error',
-    confirmButtonText: 'Volver a intentar'
-  })
-}
-
-})(); }
-
-// Azufre
-document.getElementById("S").onclick = function() {myFunction016()};
-function myFunction016() {
-  (async () => {
-
-const ipAPI = '//api.ipify.org?format=json'
-
-const inputValue = fetch(ipAPI)
-  .then(response => response.json())
-  .then(data => data.ip)
-
-const { value: elemento } = await Swal.fire({
-  title: 'S',
-  text: '¿Cuál es el nombre de este elemento?',
-  input: 'text',
-  inputPlaceholder: 'Nombre',
-  showCancelButton: true,
-  inputValidator: (value) => {
-    if (!value) {
-      return 'You need to write something!'
-    }
-  }
-})
-
-if (elemento === 'Azufre') {
-  Swal.fire({
-    title: 'Correcto!',
-    text: 'Has acertado la pregunta.',
-    icon: 'success',
-    confirmButtonText: 'Siguiente'
-  })
-}
-    
-else {
-  Swal.fire({
-    title: 'Incorrecto...',
-    text: "La respuesta correcta era Azufre",
-    icon: 'error',
-    confirmButtonText: 'Volver a intentar'
-  })
-}
-
-})(); }
-
-// Cloro
-document.getElementById("Cl").onclick = function() {myFunction017()};
-function myFunction017() {
-  (async () => {
-
-const ipAPI = '//api.ipify.org?format=json'
-
-const inputValue = fetch(ipAPI)
-  .then(response => response.json())
-  .then(data => data.ip)
-
-const { value: elemento } = await Swal.fire({
-  title: 'Cl',
-  text: '¿Cuál es el nombre de este elemento?',
-  input: 'text',
-  inputPlaceholder: 'Nombre',
-  showCancelButton: true,
-  inputValidator: (value) => {
-    if (!value) {
-      return 'You need to write something!'
-    }
-  }
-})
-
-if (elemento === 'Cloro') {
-  Swal.fire({
-    title: 'Correcto!',
-    text: 'Has acertado la pregunta.',
-    icon: 'success',
-    confirmButtonText: 'Siguiente'
-  })
-}
-    
-else {
-  Swal.fire({
-    title: 'Incorrecto...',
-    text: "La respuesta correcta era Cloro",
-    icon: 'error',
-    confirmButtonText: 'Volver a intentar'
-  })
-}
-
-})(); }
-
-// Argón
-document.getElementById("Ar").onclick = function() {myFunction018()};
-function myFunction018() {
-  (async () => {
-
-const ipAPI = '//api.ipify.org?format=json'
-
-const inputValue = fetch(ipAPI)
-  .then(response => response.json())
-  .then(data => data.ip)
-
-const { value: elemento } = await Swal.fire({
-  title: 'Ar',
-  text: '¿Cuál es el nombre de este elemento?',
-  input: 'text',
-  inputPlaceholder: 'Nombre',
-  showCancelButton: true,
-  inputValidator: (value) => {
-    if (!value) {
-      return 'You need to write something!'
-    }
-  }
-})
-
-if (elemento === 'Argón') {
-  Swal.fire({
-    title: 'Correcto!',
-    text: 'Has acertado la pregunta.',
-    icon: 'success',
-    confirmButtonText: 'Siguiente'
-  })
-}
-    
-else {
-  Swal.fire({
-    title: 'Incorrecto...',
-    text: "La respuesta correcta era Argón",
     icon: 'error',
     confirmButtonText: 'Volver a intentar'
   })
