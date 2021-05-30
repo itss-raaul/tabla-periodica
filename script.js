@@ -489,3 +489,47 @@ else {
 }
 
 })(); }
+
+// Magnesio
+document.getElementById("Mg").onclick = function() {myFunction12()};
+function myFunction12() {
+  (async () => {
+
+const ipAPI = '//api.ipify.org?format=json'
+
+const inputValue = fetch(ipAPI)
+  .then(response => response.json())
+  .then(data => data.ip)
+
+const { value: elemento } = await Swal.fire({
+  title: 'Mg',
+  text: '¿Cuál es el nombre de este elemento?',
+  input: 'text',
+  inputPlaceholder: 'Nombre',
+  showCancelButton: true,
+  inputValidator: (value) => {
+    if (!value) {
+      return 'You need to write something!'
+    }
+  }
+})
+
+if (elemento === 'Magnesio') {
+  Swal.fire({
+    title: 'Correcto!',
+    text: 'Has acertado la pregunta.',
+    icon: 'success',
+    confirmButtonText: 'Siguiente'
+  })
+}
+    
+else {
+  Swal.fire({
+    title: 'Incorrecto...',
+    text: "La respuesta correcta era Magnesio",
+    icon: 'error',
+    confirmButtonText: 'Volver a intentar'
+  })
+}
+
+})(); }
