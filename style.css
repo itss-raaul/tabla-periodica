@@ -1,0 +1,45 @@
+h1 {
+  font-family: Calibri;
+  text-align: center;
+}
+
+table, td {
+  border: 1px solid black;
+  text-align: center;
+  font-family: Calibri;
+  font-size: 20px;
+  border-radius: 2px 2px 2px 2px;
+}
+
+th, td {
+  width: 50px;
+  height: 50px;
+}
+
+.gases {
+  color: red;
+}
+
+.liquido {
+  color: blue;
+}
+
+.artificial {
+  color: #EB0CD8;
+}
+
+.metales {
+  background-color: #F5E986;
+}
+
+.semimetales {
+  background-color: #BF8577;
+}
+
+.no-metales {
+  background-color: #61F597;
+}
+
+.gases-nobles {
+  background-color: #F5AB99;
+}
