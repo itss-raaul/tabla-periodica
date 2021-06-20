@@ -5,10 +5,30 @@ h1 {
 
 table, td {
   border: 1px solid black;
+  border-color: black;
   text-align: center;
   font-family: Calibri;
   font-size: 20px;
   border-radius: 2px 2px 2px 2px;
+}
+
+.gases-nobles:hover {
+	background-color: #FF695C;
+  color: #000000;
+}
+
+.no-metales:hover {
+	background-color: #81FF6B;
+  
+}
+
+.semimetales:hover {
+	background-color: #B04D16;
+  color: #000000;
+}
+
+tr .metales:hover {
+	background-color: #F0DE41;
 }
 
 th, td {
@@ -17,7 +37,7 @@ th, td {
 }
 
 .gases {
-  color: red;
+  color: #FA645B;
 }
 
 .liquido {
@@ -42,4 +62,8 @@ th, td {
 
 .gases-nobles {
   background-color: #F5AB99;
+}
+
+.ast {
+  background-color: #F5E986;
 }
