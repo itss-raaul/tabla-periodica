@@ -4,31 +4,40 @@ h1 {
 }
 
 table, td {
-  border: 1px solid black;
-  border-color: black;
+  border: 3px white solid;
   text-align: center;
   font-family: Calibri;
   font-size: 20px;
   border-radius: 2px 2px 2px 2px;
 }
 
-.gases-nobles:hover {
-	background-color: #FF695C;
-  color: #000000;
+td {
+  text-decoration: none;
+  padding: 3px solid #aaa;
+  transition: all 0.3s; transition-delay: 0,1;
+  position: relative;
+  overflow: hidden;
 }
 
-.no-metales:hover {
-	background-color: #81FF6B;
-  
+td::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(-110%) rotate (45deg);
+  transition: all 1.2s cubic bezier(0.15, 1, 0.19, 1);
 }
 
-.semimetales:hover {
-	background-color: #B04D16;
-  color: #000000;
+td:hover {
+  border: 3px solid #000;
 }
 
-tr .metales:hover {
-	background-color: #F0DE41;
+td:active {
+  background-color: #000;
+}
+
+td:hover::before {
+  background-color: #000;
+  transform: translate(115%, -50px) rotate(90deg);
 }
 
 th, td {
@@ -67,3 +76,4 @@ th, td {
 .ast {
   background-color: #F5E986;
 }
+
