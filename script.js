@@ -8,6 +8,7 @@ Swal.fire({
   timerProgressBar: true,
 })
 
+
 // Hidrógeno
 document.getElementById("H").onclick = function() {myFunction1()};
 function myFunction1() {
