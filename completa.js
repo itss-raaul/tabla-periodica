@@ -27,6 +27,24 @@ function verificar() {
     fn016();
     fn017();
     fn018();
+    fn019();
+    fn020();
+    fn021();
+    fn022();
+    fn023();
+    fn024();
+    fn025();
+    fn026();
+    fn027();
+    fn028();
+    fn029();
+    fn030();
+    fn031();
+    fn032();
+    fn033();
+    fn034();
+    fn035();
+    fn036();
 }
 
 function reset() {
@@ -247,5 +265,221 @@ var str18 = document.getElementById("Ar").value;
   else {
     document.getElementById("Ar").style.border="3px #de1738 solid";
     document.getElementById("Ar").disabled = false;
+  }
+}
+
+function fn019() {
+var str19 = document.getElementById("K").value;
+  if (str19 == 'K') {
+    document.getElementById("K").style.border="3px #77dd77 solid";
+    document.getElementById("K").disabled = true;
+  }
+  else {
+    document.getElementById("K").style.border="3px #de1738 solid";
+    document.getElementById("K").disabled = false;
+  }
+}
+
+function fn020() {
+var str20 = document.getElementById("Ca").value;
+  if (str20 == 'Ca') {
+    document.getElementById("Ca").style.border="3px #77dd77 solid";
+    document.getElementById("Ca").disabled = true;
+  }
+  else {
+    document.getElementById("Ca").style.border="3px #de1738 solid";
+    document.getElementById("Ca").disabled = false;
+  }
+}
+
+function fn021() {
+var str21 = document.getElementById("Sc").value;
+  if (str21 == 'Sc') {
+    document.getElementById("Sc").style.border="3px #77dd77 solid";
+    document.getElementById("Sc").disabled = true;
+  }
+  else {
+    document.getElementById("Sc").style.border="3px #de1738 solid";
+    document.getElementById("Sc").disabled = false;
+  }
+}
+
+function fn022() {
+var str22 = document.getElementById("Ti").value;
+  if (str22 == 'Ti') {
+    document.getElementById("Ti").style.border="3px #77dd77 solid";
+    document.getElementById("Ti").disabled = true;
+  }
+  else {
+    document.getElementById("Ti").style.border="3px #de1738 solid";
+    document.getElementById("Ti").disabled = false;
+  }
+}
+
+function fn023() {
+var str23 = document.getElementById("V").value;
+  if (str23 == 'V') {
+    document.getElementById("V").style.border="3px #77dd77 solid";
+    document.getElementById("V").disabled = true;
+  }
+  else {
+    document.getElementById("V").style.border="3px #de1738 solid";
+    document.getElementById("V").disabled = false;
+  }
+}
+
+function fn024() {
+var str24 = document.getElementById("Cr").value;
+  if (str24 == 'Cr') {
+    document.getElementById("Cr").style.border="3px #77dd77 solid";
+    document.getElementById("Cr").disabled = true;
+  }
+  else {
+    document.getElementById("Cr").style.border="3px #de1738 solid";
+    document.getElementById("Cr").disabled = false;
+  }
+}
+
+function fn025() {
+var str25 = document.getElementById("Mn").value;
+  if (str25 == 'Mn') {
+    document.getElementById("Mn").style.border="3px #77dd77 solid";
+    document.getElementById("Mn").disabled = true;
+  }
+  else {
+    document.getElementById("Mn").style.border="3px #de1738 solid";
+    document.getElementById("Mn").disabled = false;
+  }
+}
+
+function fn026() {
+var str26 = document.getElementById("Fe").value;
+  if (str26 == 'Fe') {
+    document.getElementById("Fe").style.border="3px #77dd77 solid";
+    document.getElementById("Fe").disabled = true;
+  }
+  else {
+    document.getElementById("Fe").style.border="3px #de1738 solid";
+    document.getElementById("Fe").disabled = false;
+  }
+}
+
+function fn027() {
+var str27 = document.getElementById("Co").value;
+  if (str27 == 'Co') {
+    document.getElementById("Co").style.border="3px #77dd77 solid";
+    document.getElementById("Co").disabled = true;
+  }
+  else {
+    document.getElementById("Co").style.border="3px #de1738 solid";
+    document.getElementById("Co").disabled = false;
+  }
+}
+
+function fn028() {
+var str28 = document.getElementById("Ni").value;
+  if (str28 == 'Ni') {
+    document.getElementById("Ni").style.border="3px #77dd77 solid";
+    document.getElementById("Ni").disabled = true;
+  }
+  else {
+    document.getElementById("Ni").style.border="3px #de1738 solid";
+    document.getElementById("Ni").disabled = false;
+  }
+}
+
+function fn029() {
+var str29 = document.getElementById("Cu").value;
+  if (str29 == 'Cu') {
+    document.getElementById("Cu").style.border="3px #77dd77 solid";
+    document.getElementById("Cu").disabled = true;
+  }
+  else {
+    document.getElementById("Cu").style.border="3px #de1738 solid";
+    document.getElementById("Cu").disabled = false;
+  }
+}
+
+function fn030() {
+var str30 = document.getElementById("Zn").value;
+  if (str30 == 'Zn') {
+    document.getElementById("Zn").style.border="3px #77dd77 solid";
+    document.getElementById("Zn").disabled = true;
+  }
+  else {
+    document.getElementById("Zn").style.border="3px #de1738 solid";
+    document.getElementById("Zn").disabled = false;
+  }
+}
+
+function fn031() {
+var str31 = document.getElementById("Ga").value;
+  if (str31 == 'Ga') {
+    document.getElementById("Ga").style.border="3px #77dd77 solid";
+    document.getElementById("Ga").disabled = true;
+  }
+  else {
+    document.getElementById("Ga").style.border="3px #de1738 solid";
+    document.getElementById("Ga").disabled = false;
+  }
+}
+
+function fn032() {
+var str32 = document.getElementById("Ge").value;
+  if (str32 == 'Ge') {
+    document.getElementById("Ge").style.border="3px #77dd77 solid";
+    document.getElementById("Ge").disabled = true;
+  }
+  else {
+    document.getElementById("Ge").style.border="3px #de1738 solid";
+    document.getElementById("Ge").disabled = false;
+  }
+}
+
+function fn033() {
+var str33 = document.getElementById("As").value;
+  if (str33 == 'As') {
+    document.getElementById("As").style.border="3px #77dd77 solid";
+    document.getElementById("As").disabled = true;
+  }
+  else {
+    document.getElementById("As").style.border="3px #de1738 solid";
+    document.getElementById("As").disabled = false;
+  }
+}
+
+function fn034() {
+var str34 = document.getElementById("Se").value;
+  if (str34 == 'Se') {
+    document.getElementById("Se").style.border="3px #77dd77 solid";
+    document.getElementById("Se").disabled = true;
+  }
+  else {
+    document.getElementById("Se").style.border="3px #de1738 solid";
+    document.getElementById("Se").disabled = false;
+  }
+}
+
+function fn035() {
+var str35 = document.getElementById("Br").value;
+  if (str35 == 'Br') {
+    document.getElementById("Br").style.border="3px #77dd77 solid";
+    document.getElementById("Br").disabled = true;
+  }
+  else {
+    document.getElementById("Br").style.border="3px #de1738 solid";
+    document.getElementById("Br").disabled = false;
+  }
+}
+
+function fn036() {
+var str36 = document.getElementById("Kr").value;
+  if (str36 == 'Kr') {
+    document.getElementById("Kr").style.border="3px #77dd77 solid";
+    document.getElementById("Kr").disabled = true;
+  }
+  else {
+    document.getElementById("Kr").style.border="3px #de1738 solid";
+    document.getElementById("Kr").disabled = false;
   }
 }
