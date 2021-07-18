@@ -1,3 +1,60 @@
+.btn-1 {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boton {
+  text-decoration: none;
+  border: 2px solid #010100;
+  padding: 15px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+span {
+  position: relative;
+  z-index: 3;
+}
+
+.boton::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -2px;
+  width: calc(100% + 6px);
+  height: calc(100% - 10px);
+  background-color: #ffffff;
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.boton:hover::before {
+  transform: scaleY(0);
+}
+
+.boton::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px);
+  background-color: #ffffff;
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+
+.boton:hover::after {
+  transform: scaleX(0);
+}
+
 .menu {
 	font-family: Calibri;
 	text-align: center;
@@ -64,3 +121,6 @@ th,td {
 	height: 50px;
 }
 
+h5 {
+  font-family: 'Roboto', sans-serif;
+}
