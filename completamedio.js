@@ -7831,7 +7831,7 @@ if (simbolo === 'Og' && elemento === 'Oganessón') {
   document.getElementById("Og").innerHTML = "Og";
   document.getElementById("Og").title = "Og";
   document.getElementById("Og").style.color = "#cc8899";
-  document.getElementById("Og").style.backgroundColor = "#ffddb3";
+  document.getElementById("Og").style.backgroundColor = "#ffd1f5";
   document.getElementById("Og").style.pointerEvents = 'none';
 }
     
