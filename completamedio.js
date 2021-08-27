@@ -6039,7 +6039,12 @@ else  {
 
 })(); }
 
-// Uranio
+// 
+
+
+
+
+
 document.getElementById("U").onclick = function() {myFunction92()};
 function myFunction92() {
   (async () => {
@@ -6082,7 +6087,7 @@ if (simbolo === 'U' && elemento === 'Uranio') {
     confirmButtonText: 'Siguiente'
   });
   document.getElementById("U").style.border="3px #77dd77 solid";
-  document.getElementById("U").innerHTML = "U⁸";
+  document.getElementById("U").innerHTML = "U";
   document.getElementById("U").title = "Uranio";
   document.getElementById("U").style.backgroundColor = "#ffddb3";
   document.getElementById("U").style.pointerEvents = 'none';
