@@ -1323,7 +1323,7 @@ if (simbolo === 'Ca' && elemento === 'Calcio') {
     confirmButtonText: 'Siguiente'
   });
   document.getElementById("Ca").style.border="3px #77dd77 solid";
-  document.getElementById("Ca").innerHTML = "C";
+  document.getElementById("Ca").innerHTML = "Ca";
   document.getElementById("Ca").title = "Calcio";
   document.getElementById("Ca").style.backgroundColor = "#ffddb3";
   document.getElementById("Ca").style.pointerEvents = 'none';
