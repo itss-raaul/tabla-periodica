@@ -654,7 +654,7 @@ if (simbolo === 'Ne' && elemento === 'Neón') {
     confirmButtonText: 'Siguiente'
   });
   document.getElementById("Ne").style.border="3px #77dd77 solid";
-  document.getElementById("Ne").innerHTML = "N";
+  document.getElementById("Ne").innerHTML = "Ne";
   document.getElementById("Ne").title = "Neón";
   document.getElementById("Ne").style.backgroundColor = "#ffd1f5";
   document.getElementById("Ne").style.color = "#c81d11";
