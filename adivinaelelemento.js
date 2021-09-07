@@ -82,7 +82,8 @@ if (elemento === 'Helio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("He").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -126,7 +127,8 @@ if (elemento === 'Litio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Li").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -170,7 +172,8 @@ if (elemento === 'Berilio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Be").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -214,7 +217,8 @@ if (elemento === 'Boro') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("B").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -258,7 +262,8 @@ if (elemento === 'Carbono') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("C").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -302,7 +307,8 @@ if (elemento === 'Nitrógeno') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("N").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -347,6 +353,7 @@ if (elemento === 'Oxígeno') {
     icon: 'success',
     confirmButtonText: 'Siguiente'
   })
+  document.getElementById("O").style.border="3px #77dd77 solid";
 }
     
 else if (elemento != 'Oxígeno') {
@@ -391,6 +398,7 @@ if (elemento === 'Flúor') {
     icon: 'success',
     confirmButtonText: 'Siguiente'
   })
+  document.getElementById("F").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -435,6 +443,7 @@ if (elemento === 'Neón') {
     icon: 'success',
     confirmButtonText: 'Siguiente'
   })
+  document.getElementById("Ne").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -479,6 +488,7 @@ if (elemento === 'Sodio') {
     icon: 'success',
     confirmButtonText: 'Siguiente'
   })
+  document.getElementById("Na").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -522,7 +532,8 @@ if (elemento === 'Magnesio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Mg").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -567,6 +578,7 @@ if (elemento === 'Aluminio') {
     icon: 'success',
     confirmButtonText: 'Siguiente'
   })
+  document.getElementById("Al").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -610,7 +622,8 @@ if (elemento === 'Silicio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Si").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -655,6 +668,7 @@ if (elemento === 'Fósforo') {
     icon: 'success',
     confirmButtonText: 'Siguiente'
   })
+  document.getElementById("P").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -698,7 +712,8 @@ if (elemento === 'Azufre') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("S").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -742,7 +757,8 @@ if (elemento === 'Cloro') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Cl").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -786,7 +802,8 @@ if (elemento === 'Argón') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ar").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -830,7 +847,8 @@ if (elemento === 'Potasio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("K").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -874,7 +892,8 @@ if (elemento === 'Calcio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ca").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -918,7 +937,8 @@ if (elemento === 'Escandio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Sc").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -962,7 +982,8 @@ if (elemento === 'Titanio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ti").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1006,7 +1027,8 @@ if (elemento === 'Vanadio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("V").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1050,7 +1072,8 @@ if (elemento === 'Cromo') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Cr").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1094,7 +1117,8 @@ if (elemento === 'Manganeso') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Mn").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1138,7 +1162,8 @@ if (elemento === 'Hierro') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Fe").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1182,7 +1207,8 @@ if (elemento === 'Cobalto') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Co").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1226,7 +1252,8 @@ if (elemento === 'Níquel') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ni").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1270,7 +1297,8 @@ if (elemento === 'Cobre') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Cu").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1314,7 +1342,8 @@ if (elemento === 'Cinc') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Zn").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1358,7 +1387,8 @@ if (elemento === 'Galio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ga").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1402,7 +1432,8 @@ if (elemento === 'Germanio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ge").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1446,7 +1477,8 @@ if (elemento === 'Arsénico') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ar").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1490,7 +1522,8 @@ if (elemento === 'Selenio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Se").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1534,7 +1567,8 @@ if (elemento === 'Bromo') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Br").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1578,7 +1612,8 @@ if (elemento === 'Kriptón') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Kr").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1622,7 +1657,8 @@ if (elemento === 'Rubidio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Rb").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1666,7 +1702,8 @@ if (elemento === 'Estroncio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Sr").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1710,7 +1747,8 @@ if (elemento === 'Itrio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Y").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1754,7 +1792,8 @@ if (elemento === 'Circonio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Zr").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1798,7 +1837,8 @@ if (elemento === 'Niobio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Nb").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1842,7 +1882,8 @@ if (elemento === 'Molibdeno') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Mo").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1886,7 +1927,8 @@ if (elemento === 'Tecnecio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Tc").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1930,7 +1972,8 @@ if (elemento === 'Rutenio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ru").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -1975,6 +2018,7 @@ if (elemento === 'Rodio') {
     icon: 'success',
     confirmButtonText: 'Siguiente'
   })
+  document.getElementById("Rh").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2018,7 +2062,8 @@ if (elemento === 'Paladio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Pd").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2062,7 +2107,8 @@ if (elemento === 'Plata') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ag").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2106,7 +2152,8 @@ if (elemento === 'Cadmio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Cd").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2150,7 +2197,8 @@ if (elemento === 'Indio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("In").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2194,7 +2242,8 @@ if (elemento === 'Estaño') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Sn").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2238,7 +2287,8 @@ if (elemento === 'Antimonio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Sb").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2282,7 +2332,8 @@ if (elemento === 'Teluro') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Te").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2326,7 +2377,8 @@ if (elemento === 'Yodo') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("I").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2370,7 +2422,8 @@ if (elemento === 'Xenón') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Xe").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2414,7 +2467,8 @@ if (elemento === 'Cesio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Cs").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2458,7 +2512,8 @@ if (elemento === 'Bario') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ba").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2502,7 +2557,8 @@ if (elemento === 'Lantano') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("La").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2546,7 +2602,8 @@ if (elemento === 'Cerio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ce").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2590,7 +2647,8 @@ if (elemento === 'Praseodimio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Pr").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2634,7 +2692,8 @@ if (elemento === 'Neodimio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Nd").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2678,7 +2737,8 @@ if (elemento === 'Prometio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Pm").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2722,7 +2782,8 @@ if (elemento === 'Samario') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Sm").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2766,7 +2827,8 @@ if (elemento === 'Europio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Eu").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2810,7 +2872,8 @@ if (elemento === 'Gadolinio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Gd").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2854,7 +2917,8 @@ if (elemento === 'Terbio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Tb").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2898,7 +2962,8 @@ if (elemento === 'Disprosio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Dy").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2942,7 +3007,8 @@ if (elemento === 'Holmio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ho").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -2986,7 +3052,8 @@ if (elemento === 'Erbio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Er").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3030,7 +3097,8 @@ if (elemento === 'Tulio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Tm").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3074,7 +3142,8 @@ if (elemento === 'Iterbio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Yb").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3118,7 +3187,8 @@ if (elemento === 'Lutecio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Lu").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3162,7 +3232,8 @@ if (elemento === 'Hafnio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Hf").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3206,7 +3277,8 @@ if (elemento === 'Tantalio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ta").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3250,7 +3322,8 @@ if (elemento === 'Wolframio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("W").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3294,7 +3367,8 @@ if (elemento === 'Renio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Re").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3338,7 +3412,8 @@ if (elemento === 'Osmio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Os").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3382,7 +3457,8 @@ if (elemento === 'Iridio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ir").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3426,7 +3502,8 @@ if (elemento === 'Platino') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Pt").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3470,7 +3547,8 @@ if (elemento === 'Oro') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Au").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3514,7 +3592,8 @@ if (elemento === 'Mercurio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Hg").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3558,7 +3637,8 @@ if (elemento === 'Talio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Tl").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3602,7 +3682,8 @@ if (elemento === 'Plomo') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Pb").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3646,7 +3727,8 @@ if (elemento === 'Bismuto') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Bi").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3690,7 +3772,8 @@ if (elemento === 'Polonio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Po").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3734,7 +3817,8 @@ if (elemento === 'Astato') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("At").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3778,7 +3862,8 @@ if (elemento === 'Radón') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Rn").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3822,7 +3907,8 @@ if (elemento === 'Francio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Fr").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3866,7 +3952,8 @@ if (elemento === 'Radio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ra").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3910,7 +3997,8 @@ if (elemento === 'Actinio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ac").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3954,7 +4042,8 @@ if (elemento === 'Torio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Th").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -3998,7 +4087,8 @@ if (elemento === 'Protactinio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Pa").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4042,7 +4132,8 @@ if (elemento === 'Uranio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("U").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4086,7 +4177,8 @@ if (elemento === 'Neptunio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Np").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4130,7 +4222,8 @@ if (elemento === 'Plutonio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Pu").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4174,7 +4267,8 @@ if (elemento === 'Americio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Am").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4218,7 +4312,8 @@ if (elemento === 'Curio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Cm").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4262,7 +4357,8 @@ if (elemento === 'Berkelio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Bk").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4306,7 +4402,8 @@ if (elemento === 'Californio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Cf").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4350,7 +4447,8 @@ if (elemento === 'Einstenio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Es").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4395,6 +4493,7 @@ if (elemento === 'Fermio') {
     icon: 'success',
     confirmButtonText: 'Siguiente'
   })
+  document.getElementById("Fm").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4438,7 +4537,8 @@ if (elemento === 'Mendelevio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Md").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4482,7 +4582,8 @@ if (elemento === 'Nobelio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("No").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4526,7 +4627,8 @@ if (elemento === 'Lawrencio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Lr").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4570,7 +4672,8 @@ if (elemento === 'Rutherfordio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Rf").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4614,7 +4717,8 @@ if (elemento === 'Dubnio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Db").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4658,7 +4762,8 @@ if (elemento === 'Seaborgio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Sg").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4702,7 +4807,8 @@ if (elemento === 'Bohrio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Bh").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4746,7 +4852,8 @@ if (elemento === 'Hassio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Hs").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4790,7 +4897,8 @@ if (elemento === 'Meitnerio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Mt").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4834,7 +4942,8 @@ if (elemento === 'Darmstadtio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ds").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4878,7 +4987,8 @@ if (elemento === 'Roentgenio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Rg").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4922,7 +5032,8 @@ if (elemento === 'Copernicio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Cn").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -4966,7 +5077,8 @@ if (elemento === 'Nihonio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Nh").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -5010,7 +5122,8 @@ if (elemento === 'Flerovio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Fl").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -5055,6 +5168,7 @@ if (elemento === 'Moscovio') {
     icon: 'success',
     confirmButtonText: 'Siguiente'
   })
+  document.getElementById("Mc").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -5098,7 +5212,8 @@ if (elemento === 'Livermorio') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Lv").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -5142,7 +5257,8 @@ if (elemento === 'Tennesso') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Ts").style.border="3px #77dd77 solid";
 }
     
 else {
@@ -5186,7 +5302,8 @@ if (elemento === 'Oganessón') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("Og").style.border="3px #77dd77 solid";
 }
     
 else {
