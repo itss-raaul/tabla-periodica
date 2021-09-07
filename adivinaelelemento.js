@@ -1478,7 +1478,7 @@ if (elemento === 'Arsénico') {
     icon: 'success',
     confirmButtonText: 'Siguiente'
   });
-  document.getElementById("Ar").style.border="3px #77dd77 solid";
+  document.getElementById("As").style.border="3px #77dd77 solid";
 }
     
 else {
