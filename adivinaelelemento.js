@@ -37,7 +37,8 @@ if (elemento === 'Hidrógeno') {
     text: 'Has acertado la pregunta.',
     icon: 'success',
     confirmButtonText: 'Siguiente'
-  })
+  });
+  document.getElementById("H").style.border="3px #77dd77 solid";
 }
     
 else {
