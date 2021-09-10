@@ -4,6 +4,21 @@ Swal.fire({
   confirmButtonText: 'Entendido',
   timerProgressBar: true,
 })
+.then(function () {
+  const Toast = Swal.mixin({
+  toast: true,
+  position: 'top-end',
+  showConfirmButton: false,
+  timer: 7000,
+  timerProgressBar: true,
+})
+
+Toast.fire({
+  icon: 'warning',
+  title: 'Estás en la versión beta'
+})
+
+})
 
 // Hidrógeno
 document.getElementById("H").onclick = function() {myFunction1()};
