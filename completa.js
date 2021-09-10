@@ -6,13 +6,6 @@ Swal.fire({
   denyButtonText: 'Cancelar',
   timer: 20000,
   timerProgressBar: true,
-}).then(function () {
-  const Toast = Swal.mixin({
-  toast: true,
-  position: 'top-end',
-  showConfirmButton: false,
-  timer: 7000,
-  timerProgressBar: true,
 })
 
 function verificar() {
