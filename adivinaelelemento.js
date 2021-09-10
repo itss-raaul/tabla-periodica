@@ -12,7 +12,7 @@ Swal.fire({
   showConfirmButton: false,
   timer: 7000,
   timerProgressBar: true,
-})
+});
 
 // Hidrógeno
 document.getElementById("H").onclick = function() {myFunction1()};
