@@ -5,14 +5,7 @@ Swal.fire({
   confirmButtonText: 'Adelante',
   timer: 10000,
   timerProgressBar: true,
-}).then(function () {
-  const Toast = Swal.mixin({
-  toast: true,
-  position: 'top-end',
-  showConfirmButton: false,
-  timer: 7000,
-  timerProgressBar: true,
-});
+})
 
 // Hidrógeno
 document.getElementById("H").onclick = function() {myFunction1()};
