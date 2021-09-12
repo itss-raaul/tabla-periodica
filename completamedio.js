@@ -5633,7 +5633,7 @@ if (simbolo === 'At' && elemento === 'Astato') {
     confirmButtonText: 'Siguiente'
   });
   document.getElementById("At").style.border="3px #77dd77 solid";
-  document.getElementById("At").innerHTML = "As";
+  document.getElementById("At").innerHTML = "At";
   document.getElementById("At").title = "Astato";
   document.getElementById("At").style.backgroundColor = "#cc9966";
   document.getElementById("At").style.pointerEvents = 'none';
