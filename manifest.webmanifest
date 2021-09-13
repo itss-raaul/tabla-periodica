@@ -1,0 +1,20 @@
+{
+  "name": "Tabla Periódica",
+  "short_name": "News",
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "background_color": "#fff",
+  "description": "Aprende la tabla periódica más fácil que nunca!",
+  "icons": [
+    {
+      "src": "images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
