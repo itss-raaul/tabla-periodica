@@ -2,7 +2,6 @@
   "name": "Tabla Periódica",
   "short_name": "News",
   "start_url": "tabla-periodica-game.netlify.app/",
-  "scope": "tabla-periodica-game/",
   "display": "fullscreen",
   "background_color": "#fff",
   "description": "Aprende la tabla periódica más fácil que nunca!",
