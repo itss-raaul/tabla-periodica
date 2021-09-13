@@ -45,6 +45,21 @@
 <!--Header ends-->
 <!--Content starts-->
 
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("sw.js")
+      .then(function (registration) {
+        console.log("success load");
+      })
+      .catch(function (err) {
+        console.log(err);
+      });
+   }
+</script>
+
+   
+   
 <div class="content flex">
    <a class="boton left" href="menucompleta.html"> Completa </a> <br>
    <a class="boton" href="aprender.html"> Aprender </a> <br>
