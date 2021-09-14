@@ -21,9 +21,7 @@ Swal.fire({
 });
 
 // Hidrógeno
-document.getElementById("H").onclick = function() {
-    myFunction1();
-};
+document.getElementById("H").onclick = function() {myFunction1();};
 
 function myFunction1() {
     (async () => {
