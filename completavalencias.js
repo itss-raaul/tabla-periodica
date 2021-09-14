@@ -4420,7 +4420,7 @@ function myFunction76() {
       }
     });
 
-    if (simbolo === "Os" && elemento === "Osmio) {
+    if (simbolo === "Os" && elemento === "Osmio") {
       Swal.fire({
         title: "Correcto!",
         text: "Has acertado la pregunta.",
@@ -5023,7 +5023,7 @@ function myFunction84() {
         text: "Has acertado la pregunta.",
         icon: "success",
         confirmButtonText: "Siguiente"
-      });<
+      });
       document.getElementById("Po").style.border = "3px #77dd77 solid";
       document.getElementById("Po").innerHTML = "Po";
       document.getElementById("Po").title = "Polonio";
