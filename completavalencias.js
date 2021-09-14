@@ -4807,7 +4807,7 @@ function myFunction76() {
 			}
 		});
 
-		if (simbolo === "Os" && elemento === "Osmio) {
+		if (simbolo === "Os" && elemento === "Osmio") {
 			Swal.fire({
 				title: "Correcto!",
 				text: "Has acertado la pregunta.",
