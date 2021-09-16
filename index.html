@@ -6,13 +6,14 @@
     if (json.ip = "77.226.153.108") {
       window.location = "/iniciosesion.html";
     }
-      
     else {
-     alert("No tienes permiso para acceder a este contenido.");
-     window.location = "https://www.google.com";
+      alert("Bloqueado  -> A jugar con Google");
+      window.location = "https://www.google.com";
     }
-}
+  }
 </script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 
 <html lang="es">
 <body>
