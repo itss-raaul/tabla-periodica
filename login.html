@@ -39,12 +39,14 @@ var usuario=document.login.usuario.value;
 var password=document.login.password.value; 
 if (usuario=="raul" && password=="raul") { 
 window.location="/index.html"; 
+var permiso = true;
 } 
 if (usuario=="marina" && password=="marina") { 
 window.location="/completa.html"; 
 } 
 if (usuario=="" && password=="") { 
 window.location="errorpopup.html"; 
+var permiso = false;
 } 
 } 
         </script> 
