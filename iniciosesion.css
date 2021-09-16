@@ -92,7 +92,7 @@ input {
     opacity: 1;
   }
 }
-.login-submit {
+.login-submit, .boton {
   border: 1px solid white;
   background: transparent;
   color: white;
