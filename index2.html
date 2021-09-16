@@ -1,5 +1,32 @@
 <title>Menú Completa</title>
 
+<script>
+  
+  const linkOfTheWebsiteUserCame = document.referrer;
+  if (linkOfTheWebsiteUserCame = "https://tabla-periodica-game.netlify.app/iniciosesion.html") {
+    body.classList.add("logged-in");  
+  }
+  
+</script>
+
+<script type="application/javascript">
+  
+  function getIP(json) {
+    if (json.ip = "77.226.153.108") {
+      window.location = "/iniciosesion.html";
+    }
+    else if (json.ip = "77.226.153.108" && document.body.classList.contains('logged-in')) {
+      window.location = "/index.html";
+    }
+      
+    else {
+     alert("No tienes permiso para acceder a este contenido.");
+     window.location = "https://www.google.com";
+    }
+}
+</script>
+
+<body>
 <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAA
 B3RJTUUH5QkOCi4msw881AAAAAFvck5UAc+id5oAAA1mSURBVGjevZpfzGVnVcZ/z3r3OV/nG1o6
@@ -109,5 +136,6 @@ b2RpZnkAMjAyMS0wOS0xNFQxMDo0NjozOCswMDowMHqVC6AAAAAASUVORK5CYII=" rel="icon" typ
    </div>
    <!--Waves end-->
 </div>
+</body>
 <!--Header ends-->
 <!--Content starts-->
