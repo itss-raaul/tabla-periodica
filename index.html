@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 
-
 <script>
-const linkOfTheWebsiteUserCame = document.referrer;
-  if (linkOfTheWebsiteUserCame = "https://tabla-periodica-game.netlify.app/index2.html") {
+  
+  const linkOfTheWebsiteUserCame = document.referrer;
+  if (linkOfTheWebsiteUserCame = "https://tabla-periodica-game.netlify.app/iniciosesion.html") {
     body.classList.add("logged-in");  
   }
   
-  else {
-     window.location = "/index2.html";
-  }
-   
-</script>   
+</script>
+
+<script type="application/javascript">
+  
+  function getIP(json) {
+    if (json.ip = "77.226.153.108") {
+      window.location = "/iniciosesion.html";
+    }
+    else if (json.ip = "77.226.153.108" && document.body.classList.contains('logged-in')) {
+      window.location = "/completa.html";
+    }
+      
+    else {
+     alert("No tienes permiso para acceder a este contenido.");
+     window.location = "https://www.google.com";
+    }
+}
+</script>
 
 <html lang="es">
 <body>
