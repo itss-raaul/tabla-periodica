@@ -1,11 +1,3 @@
-function wait(ms){
-   var start = new Date().getTime();
-   var end = start;
-   while(end < start + ms) {
-     end = new Date().getTime();
-  }
-}
-
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
