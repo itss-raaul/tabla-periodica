@@ -1,5 +1,18 @@
+(function () {
+  const Toast = Swal.mixin({
+  toast: true,
+  position: 'top-end',
+  showConfirmButton: false,
+  timer: 7000,
+  timerProgressBar: true,
+})
+
 window.addEventListener('load', () =>  {
   registerSW();
+  Toast.fire({
+    icon: 'warning',
+    title: 'Estás en la versión beta'
+});
 });
 
  async function registerSW() {
@@ -10,4 +23,5 @@ window.addEventListener('load', () =>  {
        console.log('SW registration failed');
      }
    }
- }
+ };
+})
