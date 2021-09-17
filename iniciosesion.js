@@ -16,6 +16,5 @@ Swal.fire(
   'success'
 )
 wait(5000);
-};
 window.location = "/realmenu.html"; // Redirecting to other page.
-}
+};
