@@ -7,7 +7,7 @@ Swal.fire(
   'Continua para acceder al contenido!',
   'success'
 )
-
+wait(5000);
 };
 window.location = "/realmenu.html"; // Redirecting to other page.
 }
