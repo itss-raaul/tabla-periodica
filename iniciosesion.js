@@ -2,8 +2,8 @@
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "raul.es0407@gmail.com" && password == "raul21042007"){
+if ( username == "raul@gmail.com" && password == "12345"){
 alert ("Login successfully");
-window.location = "/completa.html"; // Redirecting to other page.
+window.location = "/completavalencias.html"; // Redirecting to other page.
 }
 }
