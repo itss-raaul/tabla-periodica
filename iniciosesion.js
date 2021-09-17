@@ -1,3 +1,9 @@
+import { GoogleAuthProvider } from "firebase/auth";
+
+const provider = new GoogleAuthProvider();
+
+
+
 // Below function Executes on click of login button.
 function validate(){
 var username = document.getElementById("username").value;
