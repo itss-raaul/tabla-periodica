@@ -4,6 +4,6 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "raul@gmail.com" && password == "12345"){
 alert ("Login successfully");
-window.location = "/completavalencias.html"; // Redirecting to other page.
+window.location = "/realmenu.html"; // Redirecting to other page.
 }
 }
