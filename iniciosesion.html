@@ -1,7 +1,5 @@
 <title> Inicio de sesión </title>
 <link rel="stylesheet" href="iniciosesion.css">
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<meta name="google-signin-client_id" content="998577258276-hj4388cg5e3ipu1d1o8osgrv44hn0vng.apps.googleusercontent.com">
 
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="iniciosesion.js"></script>
@@ -15,16 +13,6 @@
   <input id="username" type="email" class="login-username" required="true" placeholder="Email" autocomplete="off"/>
   <input id="password" type="password" class="login-password" required="true" placeholder="Password" autocomplete="off" />
   <input value="Entrar" target="_parent" onclick="validate()" type="button" class="boton"/>
-  <div class="g-signin2" data-onsuccess="onSignIn"></div>
-  <a href="#" onclick="signOut();">Sign out</a>
-<script>
-  function signOut() {
-    var auth2 = gapi.auth2.getAuthInstance();
-    auth2.signOut().then(function () {
-      console.log('User signed out.');
-    });
-  }
-</script>
   
 </form>
 <a href="mailto:raul.es0407@gmail.com" class="login-forgot-pass">¿Has olvidado la contraseña?</a>
