@@ -78,7 +78,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'H' && elemento === 'Hidrógeno' && regla === 'cede 1 electrón' && familia === 'Halógenos') {
+if (simbolo === 'H' && elemento === 'Hidrógeno' && regla === 'cede 1 electron' && familia === 'alcalinos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -258,7 +258,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Li' && elemento === 'Litio' && regla === 'cede 1 electrón' && familia === 'alcalinos') {
+if (simbolo === 'Li' && elemento === 'Litio' && regla === 'cede 1 electron' && familia === 'alcalinos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -348,7 +348,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Be' && elemento === 'Berilio' && regla === 'cede 2 electrones' && familia === 'alcalinos térreos') {
+if (simbolo === 'Be' && elemento === 'Berilio' && regla === 'cede 2 electrones' && familia === 'alcalinos terreos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -790,7 +790,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'F' && elemento === 'Flúor' && regla === 'capta 1 electrón' && familia === 'halógenos') {
+if (simbolo === 'F' && elemento === 'Flúor' && regla === 'capta 1 electron' && familia === 'halógenos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -1057,7 +1057,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Mg' && elemento === 'Magnesio' && regla === 'cede 2 electrones' && familia === 'alcalinos térreos') {
+if (simbolo === 'Mg' && elemento === 'Magnesio' && regla === 'cede 2 electrones' && familia === 'alcalinos terreos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -1502,7 +1502,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Cl' && elemento === 'Cloro' && regla === 'capta 1 electrón' && familia === 'halógenos') {
+if (simbolo === 'Cl' && elemento === 'Cloro' && regla === 'capta 1 electron' && familia === 'halógenos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -1680,7 +1680,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'K' && elemento === 'Potasio' && regla === 'cede 1 electrón' && familia === 'alcalinos') {
+if (simbolo === 'K' && elemento === 'Potasio' && regla === 'cede 1 electron' && familia === 'alcalinos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -1768,7 +1768,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Ca' && elemento === 'Calcio' && regla === 'cede 2 electrones' && familia === 'alcalinos térreos') {
+if (simbolo === 'Ca' && elemento === 'Calcio' && regla === 'cede 2 electrones' && familia === 'alcalinos terreos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -2208,7 +2208,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Br' && elemento === 'Bromo' && regla === 'capta 1 electrón' && familia === 'halógenos') {
+if (simbolo === 'Br' && elemento === 'Bromo' && regla === 'capta 1 electron' && familia === 'halógenos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -2386,7 +2386,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Rb' && elemento === 'Rubidio' && regla === 'cede 1 electrón' && familia === 'alcalinos') {
+if (simbolo === 'Rb' && elemento === 'Rubidio' && regla === 'cede 1 electron' && familia === 'alcalinos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -2474,7 +2474,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Sr' && elemento === 'Estroncio' && regla === 'cede 2 electrones' && familia === 'alcalinos térreos') {
+if (simbolo === 'Sr' && elemento === 'Estroncio' && regla === 'cede 2 electrones' && familia === 'alcalinos terreos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -2914,7 +2914,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'I' && elemento === 'Yodo' && regla === 'capta 1 electrón' && familia === 'halógenos') {
+if (simbolo === 'I' && elemento === 'Yodo' && regla === 'capta 1 electron' && familia === 'halógenos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -3091,7 +3091,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Cs' && elemento === 'Cesio' && regla === 'cede 1 electrón' && familia === 'alcalinos') {
+if (simbolo === 'Cs' && elemento === 'Cesio' && regla === 'cede 1 electron' && familia === 'alcalinos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -3179,7 +3179,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Ba' && elemento === 'Bario' && regla === 'cede 2 electrones' && familia === 'alcalinos térreos') {
+if (simbolo === 'Ba' && elemento === 'Bario' && regla === 'cede 2 electrones' && familia === 'alcalinos terreos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -3619,7 +3619,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'At' && elemento === 'Astato' && regla === 'capta 1 electrón' && familia === 'halógenos') {
+if (simbolo === 'At' && elemento === 'Astato' && regla === 'capta 1 electron' && familia === 'halógenos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -3796,7 +3796,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Fr' && elemento === 'Francio' && regla === 'cede 1 electrón' && familia === 'alcalinos') {
+if (simbolo === 'Fr' && elemento === 'Francio' && regla === 'cede 1 electron' && familia === 'alcalinos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
@@ -3884,7 +3884,7 @@ const { value: familia} = await Swal.fire({
   }
 })
 
-if (simbolo === 'Ra' && elemento === 'Radio' && regla === 'cede 2 electrones' && familia === 'alcalinos térreos') {
+if (simbolo === 'Ra' && elemento === 'Radio' && regla === 'cede 2 electrones' && familia === 'alcalinos terreos') {
   Swal.fire({
     title: 'Correcto!',
     text: 'Has acertado la pregunta.',
